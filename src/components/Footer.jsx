@@ -8,12 +8,14 @@ import {
     Twitter,
   } from "@material-ui/icons";
   import styled from "styled-components";
+  import { mobile } from "../responsive";
   
   const Container = styled.div`
     margin-top: 10px;
     display: flex;
     border-top: 2px solid gray;
     justify-content: space-between;
+    ${mobile({ display:"block",width:"400px",height:"500px" })}
   `;
   
   const Left = styled.div`

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from "../responsive";
 
 const Container = styled.div`
     background-color: black;
@@ -7,6 +8,7 @@ const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
+    ${mobile({ width:"100wh",justifyContent:"center",overflow:"hidden"})}
 `;
 
 const Title = styled.h3`
@@ -24,11 +26,11 @@ const Title = styled.h3`
     padding-top: 10px;
     padding-left: 5px;
     cursor: pointer;
-
 `;
 
 const Options = styled.div`
     display: flex;
+    ${mobile({ display:"none" })}
 `;
 
 const AboutUs = styled.h5`

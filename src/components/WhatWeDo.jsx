@@ -1,16 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     display: flex;
     width: 100wh;
     height: 80vh;
+    ${mobile({ height:"fit-content",display:"block",textAlign:"center",marginTop:"0" })}
 `;
 
 
 const MainColumn = styled.div`
     background-color: lightgrey;
     flex: 1;
+    ${mobile({ marginTop:"0" })}
 `;
 const MainHeading = styled.h1`
     font-size: 90px;

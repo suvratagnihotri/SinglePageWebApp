@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import styled from 'styled-components';
 import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     width: 100%;
@@ -10,6 +11,7 @@ const Container = styled.div`
     overflow: hidden;
     position: relative;
     flex: 1;
+    ${mobile({ width:"400px",height:"500px" })}
 `;
 
 const Desc = styled.div`
@@ -30,6 +32,7 @@ const Desc = styled.div`
     transition: all 1s ease;
     font-weight: 100;
     font-style: italic;
+    ${mobile({ fontSize:"25px",opacity:"1",backgroundColor:"rgba(0, 0, 0, 0)",fontWeight:"1000" ,textAlign:"center"})}
 `;
 
 const Arrow = styled.div`
@@ -68,6 +71,7 @@ const Slide = styled.div`
     &:hover ${Desc}{
         opacity: 1;
     }
+    ${mobile({ width:"100%",height:"100vh" })}
 `;
 
 const ImgContainer = styled.div`
@@ -76,6 +80,7 @@ const ImgContainer = styled.div`
     flex: 1;
     width: fit-content;
     object-fit: fill;
+    
 `;
 
 
@@ -83,6 +88,7 @@ const Image = styled.img`
     height: 100%;
     width:100%;
     object-fit: cover;
+    ${mobile({ width:"400px",height:"500px",objectFit:"cover" })}
 `;
 
 

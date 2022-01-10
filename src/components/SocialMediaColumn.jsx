@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     display: flex;
     width: 100wh;
     height: 90vh;
     overflow: hidden;
-
+    ${mobile({ display:"block",width:"400px",height:"fit-content",textAlign:"center" })}
 `;
 
 const Desc = styled.div`
@@ -27,6 +28,7 @@ const Desc = styled.div`
     transition: all 0.5s ease;
     font-weight: 100;
     font-style: italic;
+    ${mobile({ fontSize:"35px",opacity:"1",backgroundColor:"rgba(0, 0, 0, 0)",textAlign:"center",fontWeight:"600",marginLeft:"90px"})}
 `;
 
 const LeftColumn = styled.div`
@@ -45,6 +47,7 @@ const RightColumn = styled.div`
     flex: 1;
     height: 100%;
     width: 50%;
+    ${mobile({ display:"block",height:"fit-content",width:"400px" })}
 `;
 
 const SocialPlatFormColumn = styled.div`
@@ -105,6 +108,7 @@ const Image = styled.img`
     &:hover {
     transform: scale(1.1);
   }
+  ${mobile({ width:"400px",height:"500px",objectFit:"cover" })}
 `;
 
 
