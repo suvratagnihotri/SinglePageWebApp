@@ -82,7 +82,7 @@ export const WhatWeDo = () => {
                     We create super-rich experiences online!
                 </SubHeading>
                 <Desc>
-                WeBeeSocial is a full-scale Digital Marketing Agency based out of New Delhi, India. We mix our years of experience and knowledge to create solutions for our clients which are not only performance driven, but also creative.  We are running kick-ass digital campaigns for our clients, even as you read this!
+                BrandingPeers is a full-scale Digital Marketing Agency based out of Noida, India. We mix our years of experience and knowledge to create solutions for our clients which are not only performance driven, but also creative.  We are running kick-ass digital campaigns for our clients, even as you read this!
                 </Desc>
             </Digital>
             <MoreDigital>
@@ -94,7 +94,7 @@ export const WhatWeDo = () => {
                     We create super-rich experiences online!
                 </SubHeading>
                 <Desc>
-                WeBeeSocial is a full-scale Digital Marketing Agency based out of New Delhi, India. We mix our years of experience and knowledge to create solutions for our clients which are not only performance driven, but also creative.  We are running kick-ass digital campaigns for our clients, even as you read this!
+                BrandingPeers is a full-scale Digital Marketing Agency based out of Noida, India. We mix our years of experience and knowledge to create solutions for our clients which are not only performance driven, but also creative.  We are running kick-ass digital campaigns for our clients, even as you read this!
                 </Desc>
             </MoreDigital>
         </Container>
